@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run -A --watch https://deno.land/std@0.224.0/http/file_server.ts ."
+  },
+  "deploy": {
+    "project": "proje-adin-buraya-yazilacak-otomatik",
+    "entrypoint": "https://deno.land/std@0.224.0/http/file_server.ts",
+    "include": ["**/*.*"],
+    "exclude": ["node_modules", ".git"]
+  }
+}
